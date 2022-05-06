@@ -10,7 +10,7 @@ namespace Metodos_De_Ordenamiento
             bool continuar = true;
             int contador = 0;
             int[] vector = new int[10];
-            
+            int[] v2 = new int[10];
 
             while (continuar)
             {
@@ -47,7 +47,6 @@ namespace Metodos_De_Ordenamiento
                         Console.WriteLine(vector[i]);
                     }
 
-
                     Console.WriteLine("Vector llenado correctamente, presione una tecla para continuar");
                     Console.ReadKey();
 
@@ -55,6 +54,7 @@ namespace Metodos_De_Ordenamiento
                 else if(opcion == 2)
                 {
                     Console.Clear();
+                    v2 = vector;
                     if (contador == 0)
                     {
                         Console.WriteLine("No se pueden mostrar datos, el vector está vacio, primero llenelo");
@@ -62,11 +62,11 @@ namespace Metodos_De_Ordenamiento
                     else
                     {
 
-                        /*Console.WriteLine("\nMostrando los datos del vector de forma desorganizada");
+                        Console.WriteLine("\nMostrando los datos del vector de forma desorganizada");
                         for (int i = 0; i < vector.Length; i++)
                         {
-                            Console.WriteLine(vector[i]);
-                        }*/
+                            Console.WriteLine(v2[i]);
+                        }
 
                         Console.WriteLine("\nMostrando los datos del vector de forma organizada");
 

@@ -32,6 +32,7 @@ namespace Metodos_De_Ordenamiento
                     insercion[j + 1] = aux;
                 }
 
+                //Se hace uso de la clase StreamWriter para la creación de los archivos.
                 using (StreamWriter escribirArchivo = new StreamWriter("D:/insercion.txt", false))
                 {
                     escribirArchivo.WriteLine("Método de inserción ordenanado de forma ascendente");

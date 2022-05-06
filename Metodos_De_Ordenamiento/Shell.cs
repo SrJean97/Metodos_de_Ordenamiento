@@ -47,6 +47,7 @@ namespace Metodos_De_Ordenamiento
                     salto = salto / 2;
                 }
 
+                //Se hace uso de la clase StreamWriter para la creación de los archivos.
                 using (StreamWriter escribirArchivo = new StreamWriter("D:/shell.txt", false))
                 {
                     escribirArchivo.WriteLine("Método shell organizado ascendentemente");

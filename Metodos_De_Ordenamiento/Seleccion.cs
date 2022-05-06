@@ -40,6 +40,7 @@ namespace Metodos_De_Ordenamiento
                     }
                 }
 
+                //Se hace uso de la clase StreamWriter para la creación de los archivos.
                 using (StreamWriter escribirArchivo = new StreamWriter("D:/seleccion.txt", false))
                 {
                     escribirArchivo.WriteLine("Método de selección ordenanado de forma ascendente");
