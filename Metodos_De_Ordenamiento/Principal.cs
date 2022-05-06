@@ -4,14 +4,15 @@ namespace Metodos_De_Ordenamiento
 {
     public class Principal
     {
+        static int[] vector;
+        
         public static void Main(string[] args)
         {
-
+            
             bool continuar = true;
             int contador = 0;
-            int[] vector = new int[10];
-            int[] v2 = new int[10];
-
+            
+            
             while (continuar)
             {
                                 
@@ -31,14 +32,9 @@ namespace Metodos_De_Ordenamiento
                 if(opcion == 1)
                 {
                     Console.Clear();
-                    contador += 1;
-                    Console.WriteLine("\nIngrese los datos del vector");
-                    Console.WriteLine("\n\n");
-                    for (int i = 0; i < vector.Length; i++)
-                    {
-                        Console.WriteLine("Ingrese el " + i + " numero del vector");
-                        vector[i] = int.Parse(Console.ReadLine());
-                    }
+                    contador = 1;
+
+                    vector = llenarVector();
 
                     Console.WriteLine("\nDatos del vector");
                     for (int i = 0; i < vector.Length; i++)
@@ -54,19 +50,12 @@ namespace Metodos_De_Ordenamiento
                 else if(opcion == 2)
                 {
                     Console.Clear();
-                    v2 = vector;
                     if (contador == 0)
                     {
                         Console.WriteLine("No se pueden mostrar datos, el vector está vacio, primero llenelo");
                     }
                     else
                     {
-
-                        Console.WriteLine("\nMostrando los datos del vector de forma desorganizada");
-                        for (int i = 0; i < vector.Length; i++)
-                        {
-                            Console.WriteLine(v2[i]);
-                        }
 
                         Console.WriteLine("\nMostrando los datos del vector de forma organizada");
 
@@ -89,11 +78,6 @@ namespace Metodos_De_Ordenamiento
                     }
                     else
                     {
-                        /*Console.WriteLine("\nMostrando los datos del vector de forma desorganizada");
-                        for (int i = 0; i < vector.Length; i++)
-                        {
-                            Console.WriteLine(vector[i]);
-                        }*/
 
                         Console.WriteLine("\nMostrando los datos del vector de forma organizada");
                         Shell shell = new Shell();
@@ -114,11 +98,6 @@ namespace Metodos_De_Ordenamiento
                     }
                     else
                     {
-                        /*Console.WriteLine("\nMostrando los datos del vector de forma desorganizada");
-                        for (int i = 0; i < vector.Length; i++)
-                        {
-                            Console.WriteLine(vector[i]);
-                        }*/
 
                         Console.WriteLine("\nMostrando los datos del vector de forma organizada");
                         Seleccion seleccion = new Seleccion();
@@ -139,11 +118,6 @@ namespace Metodos_De_Ordenamiento
                     }
                     else
                     {
-                        /*Console.WriteLine("\nMostrando los datos del vector de forma desorganizada");
-                        for (int i = 0; i < vector.Length; i++)
-                        {
-                            Console.WriteLine(vector[i]);
-                        }*/
 
                         Console.WriteLine("\nMostrando los datos del vector de forma organizada");
                         Insercion insercion = new Insercion();
@@ -168,15 +142,19 @@ namespace Metodos_De_Ordenamiento
                 }
             }
 
+        }
+        public static int[] llenarVector()
+        {
+            int[] vectorLlenar = new int[10];
+            Console.WriteLine("\nIngrese los datos del vector");
+            Console.WriteLine("\n\n");
+            for (int i = 0; i < vectorLlenar.Length; i++)
+            {
+                Console.WriteLine("Ingrese el " + i + " numero del vector");
+                vectorLlenar[i] = int.Parse(Console.ReadLine());
+            }
 
-
-
-            //int[] vector = new int[11] { 1, 3, 4, 2, 54, 6, 7, 4, 3, 2, 2 };
-            //Burbuja burbuja = new Burbuja();
-            //burbuja.MetodoOrdenar(vector);
-
-            //Insercion inse = new Insercion();
-            //inse.MetodoOrdenar(vector);
+            return vectorLlenar;
         }
     }
 }
