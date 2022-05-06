@@ -1,0 +1,16 @@
+D:\Documentos\2022\Documentos\Franklin\Tema 4\Metodos_De_Ordenamiento\bin\Debug\net5.0\Metodos_De_Ordenamiento.exe
+D:\Documentos\2022\Documentos\Franklin\Tema 4\Metodos_De_Ordenamiento\bin\Debug\net5.0\Metodos_De_Ordenamiento.deps.json
+D:\Documentos\2022\Documentos\Franklin\Tema 4\Metodos_De_Ordenamiento\bin\Debug\net5.0\Metodos_De_Ordenamiento.runtimeconfig.json
+D:\Documentos\2022\Documentos\Franklin\Tema 4\Metodos_De_Ordenamiento\bin\Debug\net5.0\Metodos_De_Ordenamiento.runtimeconfig.dev.json
+D:\Documentos\2022\Documentos\Franklin\Tema 4\Metodos_De_Ordenamiento\bin\Debug\net5.0\Metodos_De_Ordenamiento.dll
+D:\Documentos\2022\Documentos\Franklin\Tema 4\Metodos_De_Ordenamiento\bin\Debug\net5.0\ref\Metodos_De_Ordenamiento.dll
+D:\Documentos\2022\Documentos\Franklin\Tema 4\Metodos_De_Ordenamiento\bin\Debug\net5.0\Metodos_De_Ordenamiento.pdb
+D:\Documentos\2022\Documentos\Franklin\Tema 4\Metodos_De_Ordenamiento\obj\Debug\net5.0\Metodos_De_Ordenamiento.csproj.AssemblyReference.cache
+D:\Documentos\2022\Documentos\Franklin\Tema 4\Metodos_De_Ordenamiento\obj\Debug\net5.0\Metodos_De_Ordenamiento.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\2022\Documentos\Franklin\Tema 4\Metodos_De_Ordenamiento\obj\Debug\net5.0\Metodos_De_Ordenamiento.AssemblyInfoInputs.cache
+D:\Documentos\2022\Documentos\Franklin\Tema 4\Metodos_De_Ordenamiento\obj\Debug\net5.0\Metodos_De_Ordenamiento.AssemblyInfo.cs
+D:\Documentos\2022\Documentos\Franklin\Tema 4\Metodos_De_Ordenamiento\obj\Debug\net5.0\Metodos_De_Ordenamiento.csproj.CoreCompileInputs.cache
+D:\Documentos\2022\Documentos\Franklin\Tema 4\Metodos_De_Ordenamiento\obj\Debug\net5.0\Metodos_De_Ordenamiento.dll
+D:\Documentos\2022\Documentos\Franklin\Tema 4\Metodos_De_Ordenamiento\obj\Debug\net5.0\ref\Metodos_De_Ordenamiento.dll
+D:\Documentos\2022\Documentos\Franklin\Tema 4\Metodos_De_Ordenamiento\obj\Debug\net5.0\Metodos_De_Ordenamiento.pdb
+D:\Documentos\2022\Documentos\Franklin\Tema 4\Metodos_De_Ordenamiento\obj\Debug\net5.0\Metodos_De_Ordenamiento.genruntimeconfig.cache
